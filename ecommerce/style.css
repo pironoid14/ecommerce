@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buddy {
+    text-align: center;
+    padding: 10px;
+    background-image: url(R2.jpg);
+    background-repeat: no-repeat;
+    background-position: top 20px;
+    background-size: cover;
+    height: 700px;
+    background-attachment: local;
+}
+
+.con {
+    margin-top: 30%;
+    padding: 40px;
+    border: 2px solid black;
+    height: 400px;
+    text-align: center;
+    width: 400px;
+    margin: 30px auto;
+    background-color: yellow;
+}
+
+.submit {
+    border: 2px solid black;
+    width: 170px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+}
