@@ -8,24 +8,33 @@
 .buddy {
     height: 100%;
     width: 50%;
-    position: fixed;
+    position: absolute;
     padding: auto;
     z-index: 1;
     overflow-x: hidden;
     top: 0;
 }
 
+h1 {
+    font-size: small;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .buddy {
+    display: flex;
     right: 0;
     background-color: yellow;
-    align-items: center;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .submit {
     background-color: black;
     color: white;
+    width: 25%;
 }
 
 .con {
