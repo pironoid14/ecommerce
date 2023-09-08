@@ -4,32 +4,32 @@
     box-sizing: border-box;
 }
 
+.con,
 .buddy {
-    text-align: center;
-    padding: 10px;
-    background-image: url(R2.jpg);
-    background-repeat: no-repeat;
-    background-position: top 20px;
-    background-size: cover;
-    height: 700px;
-    background-attachment: local;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    padding: auto;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
 }
 
-.con {
-    margin-top: 30%;
-    padding: 40px;
-    border: 2px solid black;
-    height: 400px;
-    text-align: center;
-    width: 400px;
-    margin: 30px auto;
+.buddy {
+    right: 0;
     background-color: yellow;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .submit {
-    border: 2px solid black;
-    width: 170px;
-    margin: 20px auto;
     background-color: black;
     color: white;
+}
+
+.con {
+    left: 0;
+    background-image: url(R.jpg);
+    background-size: 100%;
 }
